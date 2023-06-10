@@ -18,7 +18,7 @@ const arr = [
 
 app.get("/app", (req, res) => {
   res.status(200).json({
-    messsage: "done",
+    messsage: "connected",
     arr
   });
 });
